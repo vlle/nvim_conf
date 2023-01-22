@@ -13,3 +13,4 @@ vim.opt.visualbell = true
 vim.opt.wildmenu = true
 vim.opt.number = true
 vim.opt.relativenumber = true
+vim.opt.swapfile = false

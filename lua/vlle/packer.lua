@@ -42,4 +42,5 @@ use {
     {'rafamadriz/friendly-snippets'},
   }
 }
+use 'voldikss/vim-floaterm'
 end)
