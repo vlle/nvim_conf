@@ -54,7 +54,8 @@ return  {
     {'rafamadriz/friendly-snippets'},
   }
 },
+'akinsho/toggleterm.nvim',
 -- 'vold'
 "nvim-lualine/lualine.nvim",
-  dependencies = { 'kyazdani42/nvim-web-devicons', lazy = true }
+dependencies = { 'kyazdani42/nvim-web-devicons', lazy = true }
 }

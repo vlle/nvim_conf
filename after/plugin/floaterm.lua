@@ -1,1 +1,1 @@
-vim.keymap.set('n', "<leader>t", vim.cmd.FloatermToggle)
+-- vim.keymap.set('n', "<leader>t", vim.cmd.FloatermToggle)
