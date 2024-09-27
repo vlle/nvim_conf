@@ -41,11 +41,31 @@ return {
 	{
 		"vague2k/huez.nvim",
 		-- if you want registry related features, uncomment this
-		-- import = "huez-manager.import"
+		import = "huez-manager.import",
+		branch = "stable",
+		event = "UIEnter",
 		config = function()
 			require("huez").setup({})
 		end,
 	},
+	-- {
+	-- 	"folke/which-key.nvim",
+	-- 	event = "VeryLazy",
+	-- 	opts = {
+	-- 		-- your configuration comes here
+	-- 		-- or leave it empty to use the default settings
+	-- 		-- refer to the configuration section below
+	-- 	},
+	-- 	keys = {
+	-- 		{
+	-- 			"<leader>?",
+	-- 			function()
+	-- 				require("which-key").show({ global = false })
+	-- 			end,
+	-- 			desc = "Buffer Local Keymaps (which-key)",
+	-- 		},
+	-- 	},
+	-- },
 	{
 		"tversteeg/registers.nvim",
 		name = "registers",
@@ -99,7 +119,7 @@ return {
 	"tpope/vim-fugitive",
 	"lewis6991/gitsigns.nvim",
 	"voldikss/vim-floaterm",
-	"Mofiqul/dracula.nvim",
+	-- "Mofiqul/dracula.nvim",
 	{
 		{ "VonHeikemen/lsp-zero.nvim", branch = "v4.x" },
 
