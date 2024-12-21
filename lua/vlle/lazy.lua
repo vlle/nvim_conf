@@ -10,6 +10,11 @@ return {
 			},
 		},
 	},
+	{
+		"fabridamicelli/cronex.nvim",
+		opts = {},
+	},
+
 	{ "Bilal2453/luvit-meta", lazy = true }, -- optional `vim.uv` typings
 
 	-- Packer can manage itself

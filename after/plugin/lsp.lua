@@ -74,6 +74,7 @@ require("mason-lspconfig").setup({
 						-- usePlaceholders = true,
 						analyses = {
 							unusedparams = true,
+							unusedvariable = true,
 							shadow = true,
 							simplifyslice = true,
 							slog = true,
@@ -86,6 +87,7 @@ require("mason-lspconfig").setup({
 							-- compositeLiteralTypes = true,
 							-- compositeLiteralFields = true,
 						},
+						staticcheck = true,
 					},
 				},
 			})
